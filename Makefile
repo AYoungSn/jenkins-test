@@ -3,5 +3,5 @@ NAME = test
 
 all: $(NAME)
 
-$(NAME): test.cpp
+$(NAME): test.o
 	c++ test.cpp
